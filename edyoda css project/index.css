@@ -1,0 +1,1514 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+#topbar{
+    display: flex;
+    justify-content: space-between;
+}
+#topbar_logo{
+    width: 50%;
+    height: 50px;
+    background-color: #e47312;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#topbar_image{
+    width: 70%;
+    display: flex;
+    
+    
+}
+#topbar_left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+}
+header{
+    width:100%;
+    height: 430px;
+    background-image: linear-gradient(76deg, rgba(193, 195, 204, 0.83) 35%, rgba(193, 195, 204, 0.28) 65%),
+    url("https://nuuk-e3eaa.firebaseapp.com/assets/img/slide-2.jpg");
+    background-position: 0px 0px, 50% 0%;
+    background-size: auto, cover;
+    background-attachment: scroll, fixed;
+
+}
+
+#header_text_wr{
+    
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+}
+#header_text_h1{
+    font-family: 'Dosis', sans-serif;
+    
+}
+#header_text_para{
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+}
+#header_text{
+    margin-left: 20px;
+    color: #fff;
+}
+#header_text_button{
+    padding: 20px 30px 20px 30px;
+    background-color: #e47312;
+    border: none;
+    color: #fff;
+}
+#header_text_button:hover{
+    cursor: pointer;
+    background-color: linear-gradient(rgba(193, 195, 204, 0.83)75%); 
+}
+#social_meadia{
+    width: 100px;
+    height: 200px;
+    background-color: #000120;
+    transform: translate(0px,230px);
+    display: flex;
+    flex-direction: column;
+    
+}
+.social_meadia_link{
+    width: 80%;
+    height: 60px;
+    margin-left: 5px;
+    border-bottom: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.professionals_card_text_h4{
+    margin-left: 20px;
+    margin-bottom: 0px;
+    font-family: 'Dosis', sans-serif;
+}
+.professionals_card_text_para{
+    margin-left: 20px;
+    color: gray;
+    font-family: 'Dosis', sans-serif;
+}
+.social_meadia_image{
+    width: 40%;
+    
+}
+.social_meadia_link:hover{
+ cursor: pointer;
+}
+#header_contect{
+ width: 80%;
+ height: 230px;
+ margin-top: 20px ;
+ float: right;
+ background-color:#e47312 ;
+ 
+}
+#header_contect{
+    width: 72%;
+    height: 235px;
+    
+    float: right;
+    background-image: linear-gradient(to left bottom, rgba(255,0,0,0), rgba(255,0,0,1));
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    
+}
+.header_contect_detail{
+    margin:50px 50px 0px 0px;
+    text-align: center;
+    color: #ffff;
+
+    
+}
+#find_no_map{
+    width: 100px;
+     margin-left: 90px;
+     margin-top: 20px;
+    font-size: 15px;
+    padding-bottom: 5px;
+   
+}
+#find_no_map:hover{
+    border-bottom: 2px solid #fff;
+    cursor: pointer;
+}
+#services{
+    width: 100%;
+    
+    
+    margin: 0px;
+}
+#services_h2{
+
+    margin-left: 20px;
+}
+#all_services{
+    width: 155px;
+    margin-left: 20px;
+    
+}
+#all_services a{
+    text-decoration: none;
+    color: gray;
+    font-size: 15px ;
+}
+#service_cards_w{
+    width: 100%;
+
+
+}
+.service_cards{
+    width: 80%;
+    
+    margin-left:20px;
+    margin-bottom: 50px;
+    
+}
+.service_cards_img_section{
+    
+    width: 70px;
+    height: 70px;
+    
+}
+.service_cards_img{
+    width: 100%;
+}
+.service_cards_para{
+    font-size: 15px;
+    color: gray;
+}
+.learn_more_para{
+    width: 105px;
+    height: 20px;
+    color: gray;
+    font-size: 15px;
+ 
+    
+}
+.learn_more_para:hover{
+    border-bottom: 1px solid #e47312;
+    cursor: pointer;
+}
+#about{
+    width: 100%;
+    margin-top: 100px;
+    
+}
+#about_image_section{
+    width: 90%;
+    height: 100%;
+    margin: 10px 20px 20px 20px;
+
+}
+#about_image{
+    width: 100%;
+}
+#about_text_who{
+    font-family: 'Dosis', sans-serif;
+    margin: 80px 0px 80px 20px;
+}
+.about_text_para{
+    font-family: 'Dosis', sans-serif;
+    font-size: 18.5px;
+    margin: 0px 10px 30px 20px;
+    color: gray;
+}
+#about_text_about a{
+    font-family: 'Dosis', sans-serif;
+    color: gray;
+    margin-left: 20px;
+    text-decoration: none;
+}
+#about_text_about a:hover{
+    border-bottom:2px solid #e47312 ;
+}
+#about_card_w{
+    width: 100%;
+    margin-top: 30px;
+    
+}
+.about_card{
+    margin-left: 20px;
+}
+.about_card_no{
+    font-size: 80px;
+    font-weight: normal;
+    color: #e47312;
+    font-family: 'Dosis', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.about_card_para{
+    color: gray;
+    font-family: 'Dosis', sans-serif;
+}
+#projects{
+    width: 100%;
+    background-color: #EEEEEE;
+    border: 1px solid #fff;
+}
+#projects_h2{
+    margin: 50px 0px 10px 20px;
+    font-family: 'Dosis', sans-serif;
+    
+}
+#VIEW_ALL_WORK_link{
+    margin-left: 20px;
+    color: gray;
+    text-decoration: none;
+}
+#VIEW_ALL_WORK_link:hover{
+    border-bottom: 2px solid #e47312;
+}
+#project_images_section{
+    margin-top: 100px;
+}
+.images{
+    width: 90%;
+    height: 300px;
+    margin: 50px 20px 0px 20px;
+    position: relative;
+}
+.project_image{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+.project_hover_text_w{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    
+}
+.project_hover_text{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    background-color: #e47312;
+    
+   display: flex;
+
+    
+    
+}
+
+.image_overlay{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    display: none;
+}
+.project_hover_text p{
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;    
+    display: flex;
+    align-items: center;
+   
+}
+.images:hover > .image_overlay{
+    display: flex;
+    cursor: pointer;
+    
+}
+
+#make_somthing{
+    width: 100%;
+    height: 250px;
+    background-image: linear-gradient(to right top,rgba(250, 69, 3, 1), rgba(255,0,0,0.7) ),
+    url("https://nuuk-e3eaa.firebaseapp.com/assets/img/banner-2.jpg");
+    background-position: 0px 0px, 50% 0%;
+    background-size: auto, cover;
+    background-attachment: scroll, fixed;
+    border: 0.1px solid #EEEEEE;
+}
+#make_somthing_text{
+    margin-left: 20px;
+    color: #fff;
+    font-family: 'Dosis', sans-serif;
+}
+#make_somthing_text h1{
+    font-size: 30px;
+}
+#make_somthing_text p{
+    font-size: 20px;
+}
+#make_somthing_text a{
+    color: #fff;
+    text-decoration: none;
+
+}
+#make_somthing_text a:hover{
+    border-bottom: 2px solid #fff;
+}
+#team{
+    width:100%;
+    background-color: #EEEEEE;
+    margin-top: 0px;
+    border: 0.1px solid #EEEEEE;
+}
+#team_h2{
+    margin: 30px 0px 10px 20px;
+    font-family: 'Dosis', sans-serif;
+    
+}
+#about_us_link{
+
+    margin: 0px 0px 0px 20px;
+    font-family: 'Dosis', sans-serif;
+    color: gray;
+    text-decoration: none;
+}
+#about_us_link:hover{
+    border-bottom: 2px solid #e47312;
+}
+#professionals_card{
+    width: 100%;
+    margin-top: 50px;
+}
+#professionals_card_w_1{
+    width: 90% ;
+    height: 400px;
+    background-color:#fff ;
+    background-image:
+    url("https://nuuk-e3eaa.firebaseapp.com/assets/img/team-1.jpg");
+    margin: 50px 20px 0px 20px;
+    background-size: 100%;
+    
+    position: relative;
+}
+#professionals_card_w_2{
+    width: 90% ;
+    height: 400px;
+    background-color:#fff ;
+    background-image:
+    url("https://nuuk-e3eaa.firebaseapp.com/assets/img/team-2.jpg");
+    
+    background-size: 100%;
+    margin: 50px 20px 0px 20px;
+    position: relative;
+}
+#professionals_card_w_3{
+    width: 90% ;
+    height: 400px;
+    background-color:#fff ;
+    background-image:
+    url("https://nuuk-e3eaa.firebaseapp.com/assets/img/team-3.jpg");
+    
+    background-size: 100%;
+    margin: 50px 20px 0px 20px;
+    position: relative;
+}
+#professionals_card_w_4{
+    width: 90% ;
+    height: 400px;
+    background-color:#fff ;
+    background-image:
+    url("https://nuuk-e3eaa.firebaseapp.com/assets/img/team-4.jpg");
+    
+    background-size: 100%;
+    margin: 50px 20px 0px 20px;
+    position: relative;
+}
+.professionals_card_text{
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+    position: absolute;
+    background-color:#fff ;
+    
+    
+}
+.professionals_card_social_meadia{
+    width: 20%;
+    height: 180px;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    background-color:#e47312 ;
+    
+}
+
+#testimonial{
+    width: 100%;
+    
+    background-color: #EEEEEE;
+    border: 1px solid #EEEEEE;
+}
+
+#testimonial_first{
+    
+    width: 85%;
+    margin-left: 35px;
+    margin-top: 80px;
+    font-family: 'Dosis', sans-serif;
+}
+#testimonial_para{
+color: gray;
+}
+#OUR_SERVICES_link{
+    color: gray;
+    text-decoration: none;
+    height: 30px;
+    
+}
+#OUR_SERVICES_link:hover{
+    border-bottom: 1px solid #e47312;
+}
+#testimonial_article{
+    width: 80%;
+    
+
+    margin: 80px 35px 20px 35px ;
+    
+}
+#testimonial_article_card1{
+    width: 100%;
+    height: 280px;
+    background-color: #fff;
+    position: relative;
+    margin-bottom: 50px;
+}
+#testimonial_article_card2{
+    width: 100%;
+    height: 270px;
+    background-color: #fff;
+    position: relative;
+    margin-bottom: 50px;
+}
+#testimonial_article_card3{
+    width: 100%;
+    height: 240px;
+    background-color: #fff;
+    position: relative;
+    margin-bottom: 50px;
+}
+#testimonial_article_card4{
+    width: 100%;
+    height: 220px;
+    background-color: #fff;
+    position: relative;
+    margin-bottom: 50px;
+}
+.testimonial_article_card_design_w{
+    display: flex;
+    justify-content: center;
+    transform: translate(0px, -30px);
+}
+.testimonial_article_card_design{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-image: linear-gradient(to left bottom, rgba(255,69,0,1), rgba(255,0,0,1));
+    border-radius: 30px;
+    transform: translate(0px,-50);
+   
+
+}
+.testimonial_article_card_design_white{
+    width: 5px;
+    height: 20px;
+    background-color: #fff;
+    transform: translate(20px,20px);
+    display: inline-block;
+    border-radius: 5px;
+
+    
+}
+.testimonial_article_card_h3{
+    text-align: center;
+    margin-top: 20px;
+    transform: translate(0px,50px);
+    font-family: 'Dosis', sans-serif;
+}
+.testimonial_article_h4{
+    text-align: center;
+    transform: translate(0px,30px);
+    color: gray;
+    font-family: 'Dosis', sans-serif;
+}
+.testimonial_article_card_para{
+    width: 70%;
+    text-align: center;
+    margin-left: 50px;
+    transform: translate(0px,35px);
+    color: gray;
+    font-family: 'Dosis', sans-serif;
+}
+#blog{
+    width: 100%;
+    
+}
+#blog_h2{
+    margin: 30px 0px 10px 20px;
+    font-family: 'Dosis', sans-serif;
+    
+}
+#view_blog_link{
+
+    margin: 0px 0px 0px 20px;
+    font-family: 'Dosis', sans-serif;
+    color: gray;
+    text-decoration: none;
+}
+#view_blog_link:hover{
+    border-bottom: 2px solid #e47312;
+}
+#blog_image_section{
+    width: 100% ;
+    
+    
+    margin-top: 50px;
+}
+#blog_card1{
+    width: 90% ;
+    height: 400px;
+    background-color:#fff ;
+    background-image:
+    url("https://nuuk-e3eaa.firebaseapp.com/assets/img/port-1.jpg");
+    
+    background-size: 100%;
+    margin: 50px 20px 0px 20px;
+    position: relative;
+}
+#blog_card2{
+    width: 90%;
+    height: 400px;
+    background-color:#fff ;
+    background-image:
+    url("https://nuuk-e3eaa.firebaseapp.com/assets/img/port-2.jpg");
+    
+    background-size: 100%;
+    margin: 50px 20px 0px 20px;
+    position: relative;
+}
+#blog_card3{
+    width: 90%;
+    height: 400px;
+    background-color:#fff ;
+    background-image:
+    url("https://nuuk-e3eaa.firebaseapp.com/assets/img/port-3.jpg");
+    
+    background-size: 100%;
+    margin: 50px 20px 0px 20px;
+    position: relative;
+}
+.blog_card_text{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    background-image: linear-gradient(to left bottom, rgba(255,69,0,1), rgba(255,0,0,1));
+    transform: translate(0px,200px);
+}
+.blog_card_date{
+    position: absolute;
+    width: 20%;
+    height: 19%;
+    background-color: #e47312;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+}
+.blog_card_month{
+    position: absolute;
+    width: 20%;
+    height: 10%;
+    background-color: #fff;
+    top: 0;
+    right: 0;
+    transform: translate(0px,70px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+    font-family: 'Dosis', sans-serif;
+}
+.blog_card_text_h2{
+    margin-left: 20px;
+    font-family: 'Dosis', sans-serif;
+    color: #fff;
+}
+.blog_card_text_para{
+    width: 80%;
+    
+    margin-left: 20px;
+    font-family: 'Dosis', sans-serif;
+    color: 	#F5DEB3;
+
+}
+.blog_card_text_link{
+    margin-left: 20px;
+    font-family: 'Dosis', sans-serif;
+    color: gray;
+    text-decoration: none;
+    color: #fff;
+    border-bottom: 1px solid gray;
+}
+.blog_card_text_link:hover{
+    border-bottom:1px solid #fff ;
+}
+#logo{
+    width: 100%;
+ background-image: linear-gradient(to left bottom, rgba(255,69,0,1), rgba(255,0,0,1));
+    padding-bottom: 20px;
+    background-color: #e47312;
+}
+#logo_text{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color: #fff;
+}
+
+.logo_w{
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 40px;
+    
+    
+    
+    
+
+}
+.logo_image_logo{
+    width: 100%;
+}
+footer{
+    width: 100%;
+    background-color: #000120;
+    border: 1px solid #000120;
+}
+#footer_about{
+    width: 100%;
+    margin-top: 20px;
+    font-family: 'Dosis', sans-serif;
+    color: #fff;
+}
+#footer_about_h3{
+    margin-left: 20px;
+    
+}
+.footer_design{
+    width: 50%;
+    margin-left: 20px;
+    border-bottom: 1px solid #e47312;
+}
+#footer_about_para{
+    margin-left: 20px; 
+    width: 80%; 
+     
+}
+#footer_about a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 20px;
+    
+}
+#footer_about a:hover{
+    border-bottom: 1px solid #fff ;
+}
+#footer_services{
+    width: 100%;
+    margin-top: 20px;
+    font-family: 'Dosis', sans-serif;
+    color: #fff;
+}
+#footer_services_h3{
+    margin-left: 20px;
+}
+.footer_services_links{
+    margin-left: 20px;
+    width: 128px;
+    height: 30px;
+    
+}
+.footer_services_links a{
+    color: #fff;
+    text-decoration: none;
+}
+.footer_services_links:hover{
+    border-bottom: 1px solid #fff;
+}
+#footer_contact{
+    width: 100%;
+    margin-top: 20px;
+    font-family: 'Dosis', sans-serif;
+    color: #fff;
+}
+#footer_contact_h3{
+    margin-left: 20px;
+}
+.footer_contact_links{
+    color: gray;
+    margin-left: 40px;
+}
+.footer_contact_links a{
+    color: #fff;
+    text-decoration: none;
+}
+#footer_image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-left: 20px;
+    width: 50%;
+    height: 50px;
+    background-color: #e47312;
+}
+#footer_logo{
+    width: 50%;
+}
+@media (min-width:900px) {
+    #topbar{
+        display: none;
+    }
+    
+        header{
+            width: calc(100% - 50px);
+            height: 550px;
+            margin: 25px;
+            
+
+        
+        }
+        #social_meadia{
+            width: 4.5%;
+            height: 230px;
+            background-color: black;
+            transform: translate(25px,60px);
+            display: flex;
+            flex-direction: column;
+            
+            
+            
+        }
+        #nav_bar{
+            width: 93%;
+            height: 150px;
+            margin: 0px 50px 0px 50px;
+            display: flex;
+            
+            
+          }
+          #left_box{
+              width: 13%;
+              height: 110px;
+              
+              margin:30px 0px 0px 20px;
+              
+              background-color: #e47312;
+              color: #ffff;
+              text-decoration: none;
+          }
+          #left_box_h1{
+           width: 55%;
+           margin: 40px 40px 40px 40px;
+          
+           
+          
+          }
+          #nevigatin_bar{
+              width: 70%;
+              height: 90px;
+              
+              margin:30px 0px 0px 0px;
+              background-color: #ffff;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+          }
+          
+          .nevigatin{
+              
+          margin-right: 20px;
+          text-decoration: none;
+          color: #414147;
+          position: relative;
+          transition: .2s;
+          }
+          .nevigatin::before {
+            content: '';
+            position: absolute;
+            left: 0%;
+            top: 0%;
+            right: 0%;
+            width: 2px;
+            height: 0;
+            margin-right: auto;
+            margin-left: auto;
+            background-color: #e47312;
+            transition: .2s;
+          }
+          .nevigatin::after {
+            content: '';
+            position: absolute;
+            left: 0%;
+            right: 0%;
+            bottom: 0%;
+            width: 2px;
+            height: 0;
+            margin-right: auto;
+            margin-left: auto;
+            background-color: #e47312;
+            transition: .2s;
+          }
+          .nevigatin:hover::before, .nevigatin:hover::after {
+            height: 30px;
+          }
+          .nevigatin:hover{
+              color: #e47312;
+              
+          }
+          #dropdown{
+              position: relative;
+             
+              display: flex;
+              align-items: center;
+              
+              
+          }
+          #dropdown:hover{
+           cursor: pointer;
+          }
+          #dropwodn_list{
+              
+              width: 150px;
+              height: 185px;
+              position: absolute;
+              display: flex;
+              flex-direction: column;
+              background-color: #fff;
+             transform: translate(-5px,137px);
+              
+             display: none;
+              
+              
+              
+          }
+          .dropdown_link{
+              margin: 10px 10px 0px 15px;
+              padding: 0px;
+              text-decoration: none;
+              color: gray;
+              font-size: 12px;
+              
+              
+              
+          }
+          .dropdown_hover{
+              height: 20px;
+              
+              padding: 10px 5px 5px 5px;
+              margin: 0px;
+          }
+          .dropdown_link:hover{
+              background-color: 	#F0FFF0;
+              color: #e47312;
+          }
+          #dropdown:hover > #dropwodn_list{
+              display: flex;
+              cursor: pointer;
+          }
+          #right_box{
+              width: 13%;
+              height: 90px;
+              border: none;
+              margin:30px 0px 0px 0px;
+              background-color: #e47312;
+              color: #ffff;
+              text-decoration: none;
+          }
+          #right_box_para{
+              text-align: center;
+              margin-top: 40px;
+              
+          }
+           #header_text{
+              
+               margin: 65px 0px 0px 68px ;
+           }
+           #header_text_h1{
+            font-family: 'Dosis', sans-serif;
+            font-size: 60px;
+            margin: 0px;
+            
+        }
+        #header_text_para{
+            font-family: 'Dosis', sans-serif;
+            font-size: 20px;
+        }
+        #header_contect{
+            
+            display: flex;
+            transform: translate(25px,0px);
+        }
+        #services{
+            width: 96.5%;
+            height: 500px;
+            margin: 78px 0px 0px 0px ;
+        }
+        #services_first{
+            width: 100%;
+            height: 200px;
+            margin-left: 20px;
+            display: flex;
+            justify-content: space-between;
+        
+        }
+        #services_h1_w{
+            
+            position: relative;
+        }
+        #services_h1{
+            margin: 10px 0px 0px 10px;
+        font-size: 130px;
+        color: rgba(241, 241, 247, 0.4);
+        position: relative;
+        font-family: 'Dosis', sans-serif;
+        
+        }
+        #services_h2{
+            font-size: 45px;
+            position: absolute;
+            font-family: 'Dosis', sans-serif;
+            top: 0px;
+            left: 0px;
+            display: flex;
+            transform: translate(50px,55px);
+        }
+        #all_services{
+        width: 250px;
+    
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        #all_services_link {
+          font-family: 'Dosis', sans-serif;
+          height: 22px;
+            margin-right: 10px;
+        
+        }
+         
+        #all_services_link:hover{
+            border-bottom: 1px solid #e47312;
+        }
+        #service_cards_w{
+            margin-left: 60px;
+            width: 95%;
+            
+        }
+        .service_cards{
+            width: 22%;
+            margin-left: 20px;
+            display: inline-block;
+        
+            
+           
+        }
+        .service_cards_para{
+            font-size: 17px;
+        font-weight: 300px;
+        font-family: 'Dosis', sans-serif;
+        }
+        .card_h1{
+            font-size: 18px;
+            font-family: 'Dosis', sans-serif;
+        }
+        .learn_more_para{
+            width: 80px;
+            font-family: 'Dosis', sans-serif;
+            
+        }
+    
+        
+#about{
+    width: 96.5%;
+    height: 600px;
+    margin: 78px 0px 0px 20px ;
+
+}
+#about_w{
+    width: 100%;
+    
+    justify-content: space-between;
+}
+#about_image_section{
+    width: 40%;
+    height: 380px;
+    display: inline-block;
+    margin: 50px 10px 0px 70px;
+}
+#about_image{
+    width: 100%;
+    height: 100%;
+}
+#about_text{
+    width: 40%;
+    display: inline-block;
+    height: 420px;
+    margin-left: 50px;
+}
+#about_text_about{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    position: relative;
+    
+}
+#about_text_about_h1{
+    margin-top: 0px ;
+    margin-bottom: 0px;
+    font-size: 130px;
+    
+    color: rgba(241, 241, 247, 0.4);
+    font-family: 'Dosis', sans-serif;
+    transform: translate(0px,-70px);
+}
+#about_text_who{
+font-size: 45px;
+        position: absolute;
+        font-family: 'Dosis', sans-serif;
+        top: 0px;
+        left: 0px;
+        display: flex;
+        transform: translate(30px,-70px);
+}
+.about_text_para{
+    font-family: 'Dosis', sans-serif;
+    font-size: 16.9px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    color: gray;
+    transform: translate(0px,-40px);
+}
+#about_text_about a{
+    margin-top: 10px;
+     margin-left: 50px;
+     text-decoration: none;
+     color: gray;
+     font-family: 'Dosis', sans-serif;
+}
+#about_text_about a:hover{
+    border-bottom: 2px solid #e47312;
+}
+#about_card_w{
+    display: flex;
+    width: 90%;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+.about_card{
+
+   width: 14%;
+   margin-right: 100px;
+}
+#projects{
+    width: 96%;
+    margin-top: 200px;
+    margin-left: 28px;
+}
+#projects_first{
+    display: flex;
+    justify-content: space-between;
+}
+#projects_h1_w{
+    
+    position: relative;
+}
+#projects_h1{
+    font-size: 140px;
+    font-weight: normal;
+    color: rgba(224, 224, 224, 0.28);
+    font-family: 'Dosis', sans-serif;
+    margin-top: 0px;
+    margin-bottom:0px ;
+}
+#projects_h2{
+    position: absolute;
+    font-family: 'Dosis', sans-serif;
+    font-size: 50px;
+    
+    top: 0;
+    transform: translate(50px,45px);
+}
+#VIEW_ALL_WORK{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+}
+#VIEW_ALL_WORK_link{
+
+    height: 25px;
+}
+#project_images_section{
+    margin-left: 25px;
+}
+.images{
+    width: 390px;
+    height: 350px;
+    margin: 10px 10px 10px 10px;
+    padding: 0px;
+    display: inline-block;
+
+    
+}
+.project_image{
+    width: 100%;
+    height: 100%;
+}
+.image_overlay{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    display: none;
+}
+
+
+.project_hover_text p{
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;    
+    display: flex;
+    align-items: center;
+   
+}
+#make_somthing{
+    width: 96%;
+    margin-left: 28px;
+    height: 400px;
+}
+#make_somthing_text{
+    display: flex;
+    margin-top: 100px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#make_somthing_text h1{
+    margin-bottom: 0px;
+}
+#make_somthing_text a{
+    margin-top: 30px;
+}
+#team{
+    width: 96%;
+    margin-left: 28px;
+}
+#team_first{
+    display: flex;
+    justify-content: space-between;
+}
+#team_h1_w{
+    position: relative;
+}
+#team_h1{
+    font-size: 140px;
+    font-weight: normal;
+    color: rgba(224, 224, 224, 0.28);
+    font-family: 'Dosis', sans-serif;
+    margin-top: 0px;
+    margin-bottom:0px ;
+}
+#team_h2{
+    position: absolute;
+    font-family: 'Dosis', sans-serif;
+    font-size: 50px;
+    
+    top: 0;
+    transform: translate(45px,52px);
+}
+#professionals{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+}
+#about_us_link{
+
+    height: 25px;
+}
+#professionals_card{
+    display: flex;
+}
+.professionals_card_social_meadia{
+    width: 20%;
+    height: 180px;
+    bottom: 0;
+    background-color:#e47312 ;
+    
+}
+#professionals_card{
+    width: 90%;
+    margin-left: 80px;
+}
+#professionals_card_w_1{
+ margin-left: 0px;
+}
+#professionals_card_w_2{
+ margin-left: 0px;
+}
+#professionals_card_w_3{
+    margin-left: 0px;
+}
+#professionals_card_w_4{
+    margin-left: 0px;
+}
+#testimonial{
+    width: 96%;
+    margin-left: 28px;
+}
+#testtimonial_W{
+    display: flex;
+    margin-top: 100px;
+}
+#testimonial_first{
+    width: 48%;
+    
+    transform: translate(0px,100px);
+}
+#testimonial_h1_w{
+        
+    position: relative;
+}
+#testimonial_h1{
+    margin: 10px 0px 0px 10px;
+font-size: 130px;
+color: rgba(224, 224, 224, 0.28);
+position: relative;
+font-family: 'Dosis', sans-serif;
+
+}
+#testimonial_h2{
+    font-size: 45px;
+    position: absolute;
+    font-family: 'Dosis', sans-serif;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    transform: translate(50px,55px);
+}
+#testimonial_para{
+    width: 80%;
+    margin-left: 50px;
+}
+#OUR_SERVICES_link{
+    margin-left: 50px;
+}
+#testimonial{
+    display: flex;
+    justify-content: space-around;
+}
+#testimonial_article{
+    display: flex;
+    
+}
+#testimonial_article_card1_and_2{
+    width: 50%;
+    
+}
+#testimonial_article_card3_and_4{
+    width: 50%;
+     
+}
+#testimonial_article_card1{
+    width: 90%;
+    height: 270px;
+}
+#testimonial_article_card2{
+    width: 90%;
+    height: 220px;
+}
+#testimonial_article_card3{
+    margin-top: 110px;
+    width: 90%;
+    height: 220px;
+}
+#testimonial_article_card4{
+    width: 90%;
+    height: 220px;
+}
+#blog_image_section{
+    display: flex;
+    width: 100%;
+    
+
+}
+#blog{
+    width: 96%;
+    margin-left: 28px;
+    padding-bottom: 30px;
+}
+#blog_first{
+    display: flex;
+    justify-content: space-between;
+}
+#blog_h1_w{
+    
+    position: relative;
+}
+#blog_h1{
+    font-size: 140px;
+    font-weight: normal;
+    color: rgba(224, 224, 224, 0.28);
+    font-family: 'Dosis', sans-serif;
+    margin-top: 0px;
+    margin-bottom:0px ;
+}
+#blog_h2{
+    
+    position: absolute;
+    font-family: 'Dosis', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    width: 120%;
+    
+    
+    top: 0;
+    transform: translate(50px,55px);
+}
+#view_blog{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 70px;
+}
+#view_blog_link{
+
+    height: 25px;
+}
+#blog_card1{
+    margin: 20px 10px 0px 55px;
+    width: 30%;
+    
+}
+#blog_card2{
+    margin: 20px 10px 0px 0px;
+    width: 30%;
+    
+}
+#blog_card3{
+    margin: 20px 0px 0px 0px;
+    width: 30%;
+}
+.blog_card_text_para{
+    
+    width: 70%;
+}
+.blog_card_date{
+    position: absolute;
+}
+.blog_card_month{
+position: absolute;
+}
+#logo{
+    display: flex;
+    align-items: center;
+    height: 200px;
+    margin-top: 100px;
+}
+#logo_text{
+    
+    width: 300px;
+}
+#logo_logo_w{
+    width: 80%;
+    margin-top: 50px;
+    
+    display: flex;
+    align-items: center;
+}
+.logo_w{
+    width: 10%;
+    margin: 0px 0px 0px 80px;
+}
+footer{
+    width: 85%;
+    margin-left: 90px;
+
+}
+#footer_section{
+    display: flex;
+}
+.footer_contact_img_W{
+    width: 20px;
+    height: 20px;
+}
+.footer_contact-img{
+    width: 100%;
+}
+#footer_image{
+    width: 15%;
+    height: 80px;
+}
+}
+@media (max-width:600px){
+    #header_contect{
+        display: none;
+    }
+    #nav_bar{
+        display: none;
+    }
+    #header_text{
+        margin-top: 50px;
+    }
+    #services_h1{
+        display: none;
+    }
+    #services_h2{
+        margin-top: 50px;
+    }
+    #about_text_about_h1{
+        display: none;
+    }
+    #projects_h1{
+        display: none;
+    }
+    #about_text_about_h1{
+        display: none;
+    }
+    #team_h1{
+        display: none;
+    }
+    #blog_h1{
+        display: none;
+    }
+    #logo{
+        margin-top: 100px;
+        padding-top: 30px;
+    }
+    
+}
+
+
+
+
+
+
+
+
